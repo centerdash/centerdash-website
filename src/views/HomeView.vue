@@ -8,12 +8,12 @@ import NavBar from '@/components/NavBar.vue'
     <div class="wrapper">
       <span>CenterDash 1.0</span>
       <div>
-        <router-link to="/download/CenterDash_1.0.zip">
+        <a href="/download/CenterDash_1.0.zip">
           <button>Windows</button>
-        </router-link>
-        <router-link to="/download/CenterDash_1.0.apk">
+        </a>
+        <a href="/download/CenterDash_1.0.apk">
           <button>Android</button>
-        </router-link>
+        </a>
       </div>
     </div>
   </main>

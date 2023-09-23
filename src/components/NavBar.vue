@@ -1,7 +1,7 @@
 <template>
   <header>
     <router-link to="/" class="logo">CenterDash</router-link>
-    <span>login</span>
+    <router-link to="/login"><button>login</button></router-link>
   </header>
 </template>
 
