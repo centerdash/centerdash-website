@@ -1,7 +1,14 @@
 <template>
   <header>
     <router-link to="/" class="logo">CenterDash</router-link>
-    <router-link to="/login"><button>login</button></router-link>
+    <div>
+      <router-link to="/login">
+        <button>Login</button>
+      </router-link>
+      <router-link to="/register">
+        <button>Register</button>
+      </router-link>
+    </div>
   </header>
 </template>
 
@@ -18,6 +25,11 @@ header {
   @media screen and (max-width: 1000px) {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  & > div {
+    display: flex;
+    gap: 0.5rem;
   }
 }
 

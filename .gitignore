@@ -29,3 +29,5 @@ coverage
 
 # CenterDash releases
 /public/download
+
+/.env
